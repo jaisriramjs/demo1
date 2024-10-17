@@ -1,0 +1,10 @@
+name:demo1
+on:push
+
+jobs:
+  first:
+    runs-on:ubuntu-latest
+
+    steps:
+    -name:print demo1
+    run:echo demo1 in action success
